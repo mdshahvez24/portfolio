@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+:root {
+    --primary-color: #4c9d5c;
+    --dark-grey: #6b7280;
+    --off-white: #f3f4f6;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0px auto; */
+    /* max-width: 85%; */
+    width: 100%;
+    
+}
+
+/*#### Project ####*/
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.container h1{
+    color: #4c9d5c;
+}
+
+.container p{
+   font-size: 1.5rem;
+   letter-spacing: 1px;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/**section**/
+
+.section h1{
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+
+}
+
+.section {
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.ow {
+    background-color:var(--off-white);
+
+}
+.section img{
+    width: 100px;
+    height: 80px;
+}
+  
+
+
+a{
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 1.5rem;
+    color: white;
+    
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 1.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.non-bullet {
+    list-style: none;
+}
+
+.inline-list {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    margin: 0.6rem 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation a:link,
+.navigation a:visited{
+    color: #f4f4f4;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-grey);
+}
+
+.hero .hero-heading .highlighted {
+    color: var(--primary-color);
+}
+
+  /*###### About Intro #######*/
+  
+  .infoContainer{
+    /* background-color: rgb(202, 9, 120); */
+    height: 40vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+  }
+  .hello{
+    font-size: 2.8em;
+   }
+   .name{
+     font-size: 2.5em;
+     font-weight: bold;
+     font-family: 'Fira sans',sans-serif;;
+   }
+   .about{
+   font-size: 2em;
+   }
+   .moreabout{
+   font-size: 2em;
+   margin-top: 23px;
+   font-family: 'Fira sans',sans-serif;
+   }
+   .buttons {
+     margin-top: 34px;
+     font-size: 16px;
+   }
+   .btn{
+     padding: 9px 14px;
+     border-radius: 22px;
+     color: white;
+     background-color: rgb(15, 111, 206);
+     font-weight: 500;
+     font-size: 2em;
+     margin: 0 3px;
+     cursor: pointer;
+   }
+  
+   .btn:hover{
+     background-color: white;
+     color: rgb(25, 117, 209);
+   }
+   .btn a:link,
+   .btn a:visited{
+    background-color:  rgb(25, 117, 209);
+    color: white;
+}
+   .devPic img{
+     /* width: 381px; */
+     height: 50vh;
+   }
+   
+
+/*utility clasees */
+
+.md-heading{
+    font-size: 2.2rem;
+}
+.text-green{
+    color: #4fac1c;
+}
+.text-blue{
+    color: #0b54e6;
+}
+.text-red{
+    color: red;
+}
+.text-black{
+    color: black;
+}
+
+  p{
+    font-family: 'Fira sans',sans-serif;
+    padding: 8px;
+  }
+
+  .p2{
+    font-size: 1.40rem;
+    color: rgb(15, 133, 206);
+  }
+
+  .intro{
+      margin: 10px 40px;
+      padding: 1rem 0;
+    }
+
+    .about-heading::after{
+      content:'';
+      display: block;
+      border: 3px solid #e63946;
+      width: 99%;
+  }
+  .intro h1{
+    font-size: 50px;
+    font-style: bold;
+    box-shadow: 5px 5px 10px rgba(107, 101, 101, 0.367);
+
+  }
+  .intro h2{
+    font-family: 'Fira sans',sans-serif;
+    margin-left: 10px;
+  }
+
+  .intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+
+  .address-group{
+    font-family: 'Fira sans',sans-serif;
+  }
+  .address-group h2, p{
+    font-size: 1rem;
+    display: inline-block;
+  }
+  .form-wrapper .company-address i{
+    font-size: 2rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+  .skillcontainer {
+    /* padding: 12px; */
+    /* display: flex; */
+    /* align-items: center; */
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+  }
+  .skillcontainer h2{
+    font-size: 3rem;
+    font-family: 'Fira sans',sans-serif;
+    box-shadow: 5px 5px 10px rgba(102, 102, 102, 0.367);
+    }
+    .skillpara{
+        font-size: 2rem;
+        margin: 10px;
+    }
+
+.skillcontainer .left{
+    margin-bottom: 10px;
+    font-size: 2rem;
+    float: left;
+    width: 50%
+}
+.skillcontainer .right{
+    margin-bottom: 10px;
+    font-size: 2rem;
+    float: right;
+    width: 50%;
+}
+
+.arch{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.arch img{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    display: flex;
+    margin-left: 250px;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.p1{
+    font-size: 2rem;
+    font-family: 'Fira sans',sans-serif;
+    /* height: 40vh; */
+    /* width: 80vw; */
+    display: block;
+    justify-content: space-around;
+}
+
+/**footer**/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
+}
+
+.skills-image{
+    width: 60px;
+    padding: 0.3rem;
+
+}
+
+.skills-image-css{
+    width: 45px;
+}
+
+/* .resume{
+    width: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+} */
+
+
+   
+
+
